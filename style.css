@@ -1,0 +1,127 @@
+/* Mengatur gaya umum untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(/Aset/BBI3.jpg) ;
+}
+
+.flex-container {
+        display: flex;
+        background-color: rgb(75, 134, 193);
+        justify-content: space-around;
+        width: 60%;
+        margin-left: 40%;
+}
+
+.main-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: sticky;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+p.a {
+  padding: 10px;
+  width: 20px;
+  height: 10px;
+  text-align: justify;
+}
+
+.img-tools {
+    max-width: 70px;
+    max-height: 70px;
+    margin-top: 3%;
+}
+
+/* Mengatur gaya untuk header */
+header {
+    background-color: #509be7;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* Mengatur gaya untuk navigasi */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.button {
+    border: none;
+    color: rgb(219, 182, 182);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+  }
+
+.buttonPerbaikan {
+ background-color: white; 
+ color: black; 
+ border: 2px solid #000000;
+}
+
+.buttonPerbaikan:hover {
+    background-color: #1cb4de;
+    color: white;
+  }
+
+.buttonPengadaan {
+     background-color: white; 
+     color: black; 
+     border: 2px solid #000000;
+   }
+
+.buttonPengadaan:hover {
+    background-color: #1cb4de;
+    color: white;
+  }
+
+.buttonTicket {
+    background-color: white; 
+     color: black; 
+     border: 2px solid #000000;
+   }
+
+.buttonTicket:hover {
+    background-color: #1cb4de;
+    color: white;
+  }
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Mengatur gaya untuk bagian-bagian berbeda di situs */
+section {
+    padding: 20px;
+}
+
+/* Mengatur gaya untuk footer */
+footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
